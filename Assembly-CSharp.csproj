@@ -8,7 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1249ECF5-9ADB-099D-A6CF-E87ED14BACD2}</ProjectGuid>
+    <ProjectGuid>{C5D8774B-3010-6600-FFFA-B21BF4B6DB81}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,13 +51,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CannonRotation.cs" />
+    <Compile Include="Assets\Scripts\GameMenuManager.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Player1.cs" />
     <Compile Include="Assets\Scripts\Player2.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PowerupSpawner.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:\Users\Ady\Desktop\2DTanks\Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>C:\Users\Ady\Desktop\2DTanks-master\Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>

@@ -27,9 +27,16 @@ public class Player2 : MonoBehaviour {
 
 		rb = GetComponent<Rigidbody2D> ();
 	}
+	public void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "powerup") {
 
+			Destroy (other.gameObject);
+		}
 
-	void Update () {
+	}
+
+	void FixedUpdate () {
 
 		Vector3 pos = transform.position;
 
